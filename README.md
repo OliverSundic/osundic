@@ -2,10 +2,10 @@
 
 ### KORISNICI
 
-user1@example.com - password123   
-user2@example.com - password123   
-editor@example.com - editor123  
-admin@example.com - admin123   
+user1@pwa.rs - password
+user2@pwa.rs - password
+editor@pwa.rs - editor 
+admin@pwa.rs - admin   
 
 ### POKRETANJE
 
