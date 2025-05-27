@@ -16,31 +16,31 @@ class UserSeeder extends Seeder
         // Create regular users
         User::create([
             'name' => 'Regular User 1',
-            'email' => 'user1@example.com',
-            'password' => Hash::make('password123'),
+            'email' => 'user1@pwa.rs',
+            'password' => Hash::make('password'),
             'role' => 'user'
         ]);
 
         User::create([
             'name' => 'Regular User 2',
-            'email' => 'user2@example.com',
-            'password' => Hash::make('password123'),
+            'email' => 'user2@pwa.rs',
+            'password' => Hash::make('password'),
             'role' => 'user'
         ]);
 
         // Create editor user
         User::create([
             'name' => 'Editor User',
-            'email' => 'editor@example.com',
-            'password' => Hash::make('editor123'),
+            'email' => 'editor@pwa.rs',
+            'password' => Hash::make('editor'),
             'role' => 'editor'
         ]);
 
         // Create admin user
         User::create([
             'name' => 'Admin User',
-            'email' => 'admin@example.com',
-            'password' => Hash::make('admin123'),
+            'email' => 'admin@pwa.rs',
+            'password' => Hash::make('admin'),
             'role' => 'admin'
         ]);
 
